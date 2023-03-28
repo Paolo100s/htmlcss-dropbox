@@ -106,6 +106,27 @@ header {
     width: 600px;
 }
 
+/* sezione partner */
+.partner {
+    margin: 100px auto;
+    gap: 30px;
+}
+
+#partner-img{
+    width: 450px;
+    height: 350px;
+}
+
+.partner h3{
+    padding: 40px 20px 20px 0;
+}
+
+.partner button {
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 0;
+}
+
 /* sezione FAQ */
 .FAQ {
     width: 60%;
