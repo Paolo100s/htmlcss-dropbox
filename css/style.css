@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 ul {
@@ -20,6 +21,7 @@ a {
 /* header */
 header {
     width: 100%;
+    background-color: #fff;
     position: fixed;
     top: 0;
     left: 0;
@@ -61,4 +63,45 @@ header {
     color: #fff;
     border: none;
     padding: 10px;
+}
+
+/* main */
+
+/* jumbotron */
+#jumbotron {
+    margin-top: 70px;
+    background-color: #b4d0e7;
+}
+
+.row {
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
+
+#jumbotron h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 40px 0 30px;
+}
+
+#jumbotron button {
+    background-color: #0061ff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+#jumbotron span {
+    display: block;
+}
+
+#jumbotron .fa-arrow-down {
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+#jumbotron img {
+    width: 600px;
 }
