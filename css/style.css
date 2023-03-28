@@ -127,3 +127,34 @@ header {
     position: absolute;
     right: 0;
 }
+
+/* footer */
+footer {
+    background-color: #000000;
+    color: #fff;
+}
+
+.bottom {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom h3 {
+    padding: 40px 0 15px;
+}
+
+.bottom ul {
+    margin-bottom: 95px
+}
+
+.language {
+    width: 70%;
+    margin: auto;
+}
+
+.language span {
+    padding: 25px 0;
+    border-top: 1px solid #fff;
+}
