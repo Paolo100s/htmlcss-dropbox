@@ -18,6 +18,12 @@ a {
     color: #000;
 }
 
+.container {
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
+
 /* header */
 header {
     width: 100%;
@@ -73,12 +79,6 @@ header {
     background-color: #b4d0e7;
 }
 
-.row {
-    width: 60%;
-    margin: auto;
-    display: flex;
-}
-
 #jumbotron h1 {
     font-size: 50px;
     text-align: center;
@@ -104,4 +104,26 @@ header {
 
 #jumbotron img {
     width: 600px;
+}
+
+/* sezione FAQ */
+.FAQ {
+    width: 60%;
+    margin: 80px auto;
+}
+
+.FAQ h2 {
+    padding-bottom: 20px;
+}
+
+.FAQ p {
+    padding: 20px 0;
+    border-top: 1px solid rgb(90, 89, 89);
+    border-bottom: 1px solid rgb(90, 89, 89);
+    position: relative;
+}
+
+.FAQ .fa-angle-down {
+    position: absolute;
+    right: 0;
 }
