@@ -9,6 +9,11 @@ body {
     font-size: 14px;
 }
 
+button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
 ul {
     list-style-type: none;
 }
@@ -163,6 +168,83 @@ header {
 .business a {
     text-decoration: underline;
     color: #0061ff;
+}
+
+/* sezione aziende */
+.row-company {
+    margin: 80px 0;
+    display: flex;
+    height: 70vh;
+}
+
+.container-company {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+}
+
+.container-company div {
+    width: 50%;
+    position: relative;
+}
+
+.container-company img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+#designit {
+    background-color: #a2d39b;
+}
+
+#arizona {
+    background-color: #61082b;
+}
+
+#florida {
+    background-color: #0093ce;
+}
+
+#topps {
+    background-color: #ff1c1c;
+}
+
+.text-company {
+    width: calc(100% / 3);
+    margin: 20px;
+    overflow-y: auto;
+}
+
+.text-company img {
+    width: 50%;
+}
+
+.text-company hr {
+    width: 20%;
+    margin: 30px 0;
+}
+
+.text-company p {
+    margin-bottom: 30px;
+}
+
+#bicycle {
+    background-color: #d5001f;
+}
+
+#hearst {
+    background-color: #b4d0e7;
+}
+
+#lonely-planet {
+    background-color: #0d2481;
+}
+
+#clear-channel {
+    background-color: #ffd830;
 }
 
 /* sezione FAQ */
