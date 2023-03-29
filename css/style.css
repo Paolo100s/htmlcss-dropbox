@@ -172,7 +172,7 @@ header {
 
 /* sezione aziende */
 .row-company {
-    margin: 80px 0;
+    margin-top: 80px;
     display: flex;
     height: 70vh;
 }
@@ -193,7 +193,8 @@ header {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
+    filter: invert(100%);
 }
 
 #designit {
@@ -247,6 +248,26 @@ header {
     background-color: #ffd830;
 }
 
+.company-bottom {
+    background-color: #b4d0e7;
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+
+.company-bottom h2{
+    color: #61082b;
+    font-size: 25px;
+}
+
+.company-bottom button {
+    padding: 5px 25px;
+    border: none;
+    height: 30px;
+
+}
+
 /* sezione FAQ */
 .FAQ {
     width: 60%;
@@ -293,6 +314,8 @@ footer {
 .language {
     width: 70%;
     margin: auto;
+    display: flex;
+    align-items: center;
 }
 
 .language span {
